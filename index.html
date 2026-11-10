@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THÀNH DANH CINEMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>THÀNH DANH CINEMA</h2>
+        <nav>
+            <a href="#movies">Phim</a> |
+            <a href="#cinema">Rạp</a> |
+            <a href="#contact">Liên hệ</a> |
+            <a href="#booking">Đặt vé</a>
+        </nav>
+    </header>
+    <main>
+        <section id="movies">
+            <h2>PHIM ĐANG CHIẾU</h2>
+            <p>Chào mừng bạn đến với Thành Danh Cinema</p>
+            <p>Khám phá những bộ phim hấp dẫn với chất lượng hình ảnh sắc nét siêu xịn và âm thanh sống động như ngoài đời thật.</p>
+            <h3>Avengers: Endgame</h3>
+            <img src="image/anh1.webp" alt="Poster Avengers Endgame" width="200">
+            <hr>
+            <h3>Heo pepa</h3>
+            <img src="image/anh2.webp" alt="heo pepa 2" width="200">
+            <hr>
+            <h3>Một nghìn lẻ một anh nhện nhọ</h3>
+            <img src="image/anh3.jpg" alt="Poster Spider Man" width="200">
+        </section>
+        <section id="cinema">
+            <h2>KHÁM PHÁ THÀNH DANH CINEMA</h2>
+            <p>Không gian giải trí hiện đại, mang đến trải nghiệm điện ảnh tuyệt vời đỉnh nóc.</p>
+            <h3>Không gian rạp chiếu phim</h3>
+            <img src="image/cinema.webp" alt="Không gian rạp chiếu phim" width="400">
+
+            <h3>Trailer giới thiệu</h3>
+            <video width="800px" controls>
+                <source src="video/trailer.mp4" type="video/mp4">
+                Trình duyệt không hỗ trợ video.
+            </video>
+        </section>
+        <form id="booking">
+            <h2>ĐĂNG KÝ ĐẶT VÉ</h2>
+            <p>Vui lòng điền đầy đủ thông tin để đặt vé xem phim.</p>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <td><label for="fullname">Họ và tên:</label></td>
+                    <td><input type="text" id="fullname" name="fullname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Số điện thoại:</label></td>
+                    <td><input type="tel" id="phone" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="movie">Chọn phim:</label></td>
+                    <td>
+                        <select id="movie" name="movie">
+                            <option value="avengers">Avengers: Endgame</option>
+                            <option value="insideout">Inside Out 2</option>
+                            <option value="spiderman">Spider-Man: No Way Home</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="date">Ngày xem:</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="quantity">Số lượng vé:</label></td>
+                    <td><input type="number" id="quantity" name="quantity" ></td>
+                </tr>
+                <tr>
+                    <td>Loại ghế:</td>
+                    <td>
+                        <input type="radio" id="normal" name="seat" value="normal">
+                        <label for="normal">Ghế thường</label>
+                        <input type="radio" id="vip" name="seat" value="vip">
+                        <label for="vip">Ghế VIP</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dịch vụ đi kèm:</td>
+                    <td>
+                        <input type="checkbox" id="popcorn" name="service" value="popcorn">
+                        <label for="popcorn">Bắp rang</label>
+                        <input type="checkbox" id="water" name="service" value="water">
+                        <label for="water">Nước uống</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="note">Ghi chú:</label></td>
+                    <td><textarea id="note" name="note" rows="4" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">ĐẶT VÉ NGAY</button>
+                        <button type="reset">LÀM LẠI</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer id="contact">
+        <p>THÀNH DANH CINEMA - Chạm đến trái tim.</p>
+        <p>Địa chỉ: TP. Hồ Chí Minh | Hotline: 0123 456 789</p>
+        <nav>
+            <a href="#movies">Phim</a> |
+            <a href="#cinema">Rạp</a> |
+            <a href="#contact">Liên hệ</a> |
+            <a href="#booking">Đặt vé</a>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: #F5F5F5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #171717;
+    color: #FFD700;
+    text-align: center;
+}
+header h2 {
+    font-size: 30px;
+}
+nav {
+    background-color: #C90016;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    background-color: #F5F5F5;
+}
+section {
+    background-color: white;
+}
+h2 {
+    color: #C90016;
+    text-align: center;
+}
+h3 {
+    color: #222222;
+}
+p {
+    font-size: 16px;
+}
+img {
+    border: 3px solid #FFD700;
+}
+video {
+    border: 3px solid #C90016;
+}
+form {
+    background-color: white;
+}
+table {
+    background-color: #FFF8E1;
+    color: #333333;
+    border: 2px solid #C90016;
+}
+td {
+    border: 1px solid #C90016;
+}
+input, select, textarea {
+    background-color: white;
+    color: #333333;
+    border: 1px solid #999999;
+}
+button {
+    background-color: #C90016;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+footer {
+    background-color: #171717;
+    color: white;
+    text-align: center;
+}
+footer p {
+    color: white;
+}
+footer nav {
+    background-color: #171717;
+}
